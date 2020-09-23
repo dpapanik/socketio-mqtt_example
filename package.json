@@ -1,0 +1,20 @@
+{
+  "name": "socketio-mqtt_example",
+  "version": "1.0.0",
+  "description": "example of integrating socket.io with mqtt client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "socketio"
+  ],
+  "author": "Dimitris Papanikolaou",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.2.1",
+    "socket.io": "^2.3.0"
+  }
+}
