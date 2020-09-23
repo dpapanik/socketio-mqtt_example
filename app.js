@@ -21,10 +21,10 @@ server.listen(3000, function(){
 /**********************************/
 
 var mqttOptions = {
-      port: 14612,
-      clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-      username: "ozzhcvbr",
-      password: "1t9Q28WXW4o2",
+      port: "your_port",
+      clientId: "your_clientID",
+      username: "your_username",
+      password: "your_password",
 };
 var mqttClient = mqtt.connect('mqtt://tailor.cloudmqtt.com', mqttOptions);
 mqttClient.on('connect', function () {
